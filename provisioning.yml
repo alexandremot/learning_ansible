@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: True
+  tasks:
+    - name: update php apt_repository
+      apt_repository:
+        repo: ppa:ondrej/php
+        state: present
+        update_cache: True
+    - apt:
+        name: php5.6
+        state: latest
+      become: yes
