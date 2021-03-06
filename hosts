@@ -1,2 +1,2 @@
 [wordpress]
-54.232.41.23 ansible_user=ubuntu ansible_ssh_private_key_file="/home/ale/programming/learning_ansible/my_linux_access.pem"
+<instance ip> ansible_user=ubuntu ansible_ssh_private_key_file="/home/ale/programming/learning_ansible/my_linux_access.pem"
